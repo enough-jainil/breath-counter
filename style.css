@@ -1,0 +1,46 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: auto;
+  padding: 20px;
+  /* background-color: #f0f0f0;
+  color: #333; */
+  text-align: center;
+}
+
+h1 {
+  color: #0066cc;
+}
+
+#years,
+#breaths,
+#oxygen {
+  font-family: "Digital-7 Mono", monospace; /* This is a typical digital clock font, ensure it’s loaded or available */
+  font-size: 24px;
+  color: #ff4500;
+  background-color: #000;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+/* #oxygen {
+  font-family: 'Digital-7 Mono', monospace;
+  font-size: 24px;
+  color: #ff4500;
+  background-color: #000;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+} */
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #years,
+  #breaths {
+    font-size: 18px; /* Smaller font for mobile devices */
+  }
+}
